@@ -20,30 +20,30 @@ array = [1,2,3,5,7,10,11,12,13,15,16,19]
 =end
 
 
-#   number = 1
-#   new_num = 0
-# while number != new_num
+  number = 1
+  new_num = 0
+while number != new_num
   
-# 	#SOMETHING RECURSIVE has to happen here, create a method that solves thsi
-#   array.each do |i|
-#     if number%i != 0
-#     	i += 1
-#     	binding.pry
+	#SOMETHING RECURSIVE has to happen here, create a method that solves thsi
+  array.each do |i|
+    if number%i != 0
+    	i += 1
+    	binding.pry
 
-#     else
-#       new_num = number
-#       puts new_num
-#       binding.pry
-#     end
-#   end
+    else
+      new_num = number
+      puts new_num
+      binding.pry
+    end
+  end
 
-#   number += 1
+  number += 1
 
-# end
+end
 
-# number = 1
+number = 1
 
-# array.each do |i|
+array.each do |i|
 
 # end
 	number = 1
