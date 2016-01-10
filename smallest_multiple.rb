@@ -24,7 +24,8 @@ array = [1,2,3,5,7,10,11,12,13,15,16,19]
   new_num = 0
 while number != new_num
   
-	#SOMETHING RECURSIVE has to happen here, create a method that solves thsi
+	#SOMETHING RECURSIVE has to happen here, create a method that solves this
+# when this happns it will change everything.
   array.each do |i|
     if number%i != 0
     	i += 1
